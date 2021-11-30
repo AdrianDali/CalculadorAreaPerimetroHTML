@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./figuras.css" />
+
+    <title>Figuras geometricas</title>
+  </head>
+
+  <body>
+    <section class="center">
+    <section class="margen">
+      <script src="./figuras.js"></script>
+        <section class="center">
+      <h1 class="page-header">Figuras geometricas</h1>
+      </section>
+      <section class="container-intro">
+        <section class="message-intro">
+          <h2>Calculadora de Area y Perimetro de figuras geometricas</h2>
+          <img
+            class="img-figuras"
+            src="./img/geometria.png"
+            height="150"
+            width="150"
+          />
+        </section>
+      </section>
+      <section class="section-calc-square">
+        <h2>Calcula area y perimetro de un cuadrado</h2>
+        <form action="">
+          <label for="InputCuadrado"
+            >Escribe cuanto mide cada lado de tu cuadrado</label
+          >
+          <input id="InputCuadrado" type="number" placeholder="" />
+          <section class="sc">
+            <button type="button" onclick="calcularPerimetroCuadrado()">
+              Calcular Perimetroo
+            </button>
+            <button type="button" onclick="calcularAreaCuadrado()">
+              Calcular Area
+            </button>
+          </section>
+        </form>
+      </section>
+
+      <section class="section-calc-square">
+        <h2>Calcula area y perimetro de un triangulo</h2>
+        <form action="">
+          <label for="InputRectangulo"
+            >Cuanto mide el lado de tu cuadrado?</label
+          >
+          <input id="InputRectanguloX" type="number" placeholder="" />
+          <input id="InputRectanguloY" type="number" placeholder="" />
+          <section class="sc">
+            <button type="button" onclick="calcularPerimetroRectangulo()">
+              Calcular Perimetro
+            </button>
+            <button type="button" onclick="calcularAreaRectangulo()">
+              Calcular Area
+            </button>
+          </section>
+        </form>
+      </section>
+
+      <section class="section-calc-square">
+        <h2>Calcula area y perimetro de un Triangulo</h2>
+        <form action="">
+          <label for="InputTriangulo"
+            >Escribe cuanto mide cada lado de tu cuadrado</label
+          >
+
+          <input id="InputTriangulo" type="number" placeholder="" />
+          <section class="sc">
+            <button type="button" onclick="calcularPerimetroTriangulo()">
+              Calcular Perimetro
+            </button>
+            <button type="button" onclick="calcularAreaTriangulo()">
+              Calcular Area
+            </button>
+          </section>
+        </form>
+      </section>
+      <section class="section-calc-square">
+        <h2>Calcula area y perimetro de un circulo</h2>
+        <form action="">
+          <label for="InputCirculo"
+            >Escribe cuanto mide cada lado de tu cuadrado</label
+          >
+          <input id="InputCirculo" type="number" placeholder="" />
+          <section class="sc">
+            <button type="button" onclick="calcularPerimetroCirculo()">
+              Calcular Perimetro
+            </button>
+            <button type="button" onclick="calcularAreaCirculo()">
+              Calcular Area
+            </button>
+          </section>
+        </form>
+      </section>
+    </section>
+    </section>
+  </body>
+</html>
